@@ -19,7 +19,7 @@ The cooking data at the behavioral level is placed in **'./data_wok/'**.
 The **'utilities'** can process EMG signals to create sliding windows. 
 
 # Environment
-The scripts are carried on Tensorflow-2.6.0, Keras-2.6.0, and Python-3.6.5. 
+The scripts are carried out on Tensorflow-2.6.0, Keras-2.6.0, and Python-3.6.5. 
 
 # Usage
 
