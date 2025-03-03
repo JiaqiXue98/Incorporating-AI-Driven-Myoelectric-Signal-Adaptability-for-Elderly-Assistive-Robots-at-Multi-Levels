@@ -26,7 +26,7 @@ The scripts are carried out on Tensorflow-2.6.0, Keras-2.6.0, and Python-3.6.5.
 **Run the script 'KD.ipynb' to update a teacher model to a student model using knowledge distillation,enhancing its adaptability for a wider range of tasks.**
 
 
-**Run the script 'KD_test.ipynb' to extract the student model and test its prediction performance of hand&elbow on old and new tasks.**
+**Run the script 'KD_test.ipynb' to extract the student model and test its prediction performance of hand & elbow on old and new tasks.**
 
 The accuracies are calculated and printed. The acc_h_target and acc_e_target represent the testing accuracies of hand and elbow motions on new cooking tasks, respectively. The acc_h_source and acc_e_source represent the testing accuracies of hand and elbow motions on old coordination tasks, respectively.   
 
