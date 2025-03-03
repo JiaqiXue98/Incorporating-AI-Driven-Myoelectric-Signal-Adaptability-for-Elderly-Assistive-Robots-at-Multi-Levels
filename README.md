@@ -8,7 +8,7 @@ The **'KD_test.ipynb'** is the testing code for knowledge distillation.
 
 The trained complete KD model is saved in  **'./checkpoint/'**.
 
-The **'model_teacher_S.h5'** is the teacher model using in KD training.
+The **'model_teacher_S.h5'** is the teacher model used in KD training.
 
 The **'student_.h5'** is the obtained student model after KD.
 
@@ -16,7 +16,7 @@ The hand-elbow motion coordination data at the functional level is placed in **'
 
 The cooking data at the behavioral level is placed in **'./data_wok/'**.
 
-The **'utilities'** can process EMG signals to sliding windows. 
+The **'utilities'** can process EMG signals to create sliding windows. 
 
 # Environment
 The scripts are carried on Tensorflow-2.6.0, Keras-2.6.0, and Python-3.6.5. 
