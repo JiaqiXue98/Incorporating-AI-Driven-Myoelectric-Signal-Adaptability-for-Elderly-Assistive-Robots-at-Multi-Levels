@@ -12,9 +12,9 @@ The **'model_teacher_S.h5'** is the teacher model using in KD training.
 
 The **'student_.h5'** is the obtained student model after KD.
 
-The hand-elbow motion combination data at the functional level is placed in **'./data_hand_and_elbow/'**.
+The hand-elbow motion coordination data at the functional level is placed in **'./data_hand_and_elbow/'**.
 
-The wok control data at the behavioral level is placed in **'./data_wok/'**.
+The cooking data at the behavioral level is placed in **'./data_wok/'**.
 
 The **'utilities'** can process EMG signals to sliding windows. 
 
@@ -23,8 +23,11 @@ The scripts are carried on Tensorflow-2.6.0, Keras-2.6.0, and Python-3.6.5.
 
 # Usage
 
-**Run the script 'KD_test.ipynb' to test the prediction performance of an example subject**. 
+**Run the script 'KD.ipynb' to update a teacher model to a student model using knowledge distillation,enhancing its adaptability for a wider range of tasks.**
 
-The accuracies are calculated and printed. The acc_h_target and acc_e_target represent the testing accuracies of hand motions on   
+
+**Run the script 'KD_test.ipynb' to extract the student model and test its prediction performance of hand&elbow on old and new tasks.**
+
+The accuracies are calculated and printed. The acc_h_target and acc_e_target represent the testing accuracies of hand and elbow motions on new cooking tasks, respectively. The acc_h_source and acc_e_source represent the testing accuracies of hand and elbow motions on old coordination tasks, respectively.   
 
 
